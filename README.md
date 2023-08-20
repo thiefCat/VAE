@@ -9,6 +9,7 @@ into how specific network architectures can influence overall performance.
 ## Download the dataset
 This model uses both MNIST dataset and Fashion MNIST dataset. Please download the data (four .gz files for both datasets), and
 put the data to "data/MNIST" or "data/Fashion_MNIST". The file structure is illustrated below:
+
 <img src="file_structure.png" width="200" height="200">
 
 ## How to run
