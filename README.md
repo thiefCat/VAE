@@ -10,16 +10,16 @@ into how specific network architectures can influence overall performance.
 This model uses both MNIST dataset and Fashion MNIST dataset. Please download the data (four .gz files for both datasets), and
 put the data to "data/MNIST" or "data/Fashion_MNIST". The file structure is illustrated below:
 
-Your working space/
-│
-├── data/
-│   ├── MNIST/
-│   └── Fashion_MNIST/
-│
-└── VAE/
-    ├── source/
-    ├── results/
-    └── train.py
+Your working space/  
+│  
+├── data/  
+│   ├── MNIST/  
+│   └── Fashion_MNIST/  
+│  
+└── VAE/  
+    ├── source/  
+    ├── results/  
+    └── train.py  
 
 
 
