@@ -21,9 +21,6 @@ Your working space/
     ├── results/  
     └── train.py  
 
-
-
-
 ## How to run
 To run the model, just type "python train.py", the model will be trained by default parameters. You can look at how to change hyperparameters by running "python train.py -h" and use command line codes to change them. e.g., the data used for training, the latent dimension, the architecture for the model .etc.
 
