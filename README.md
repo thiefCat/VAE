@@ -10,16 +10,7 @@ into how specific network architectures can influence overall performance.
 This model uses both MNIST dataset and Fashion MNIST dataset. Please download the data (four .gz files for both datasets), and
 put the data to "data/MNIST" or "data/Fashion_MNIST". The file structure is illustrated below:
 
-Your working space/  
-│  
-├── data/  
-│   ├── MNIST/  
-│   └── Fashion_MNIST/  
-│  
-└── VAE/  
-    ├── source/  
-    ├── results/  
-    └── train.py  
+![Alt text](file_structure.png)
 
 ## How to run
 To run the model, just type "python train.py", the model will be trained by default parameters. You can look at how to change hyperparameters by running "python train.py -h" and use command line codes to change them. e.g., the data used for training, the latent dimension, the architecture for the model .etc.
