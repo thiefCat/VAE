@@ -13,18 +13,14 @@ put the data to "data/MNIST" or "data/Fashion_MNIST". The file structure is illu
 Your working space/
 │
 ├── data/
-│   │
-|   ├── MNIST
-|   │
-|   ├── Fashion_MNIST
+│   ├── MNIST/
+│   └── Fashion_MNIST/
 │
 └── VAE/
-    │
     ├── source/
-    │
     ├── results/
-    │
     └── train.py
+
 
 
 ## How to run
