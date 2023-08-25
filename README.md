@@ -1,6 +1,6 @@
 # VAE
 ## Introduction
-This report presents my investigation into Variational Autoencoders (VAEs), a powerful class of generative models. I made an in-depth exploration of the mathematical formulations underpinning VAE and achieved a comprehensive understanding of latent models. I implemented VAE from scratch and tested them on MNIST and FashionMNIST dataset. I also implemented two network structures (MLP-based and CNN-based encoder-decoder architectures), and a comparative analysis was performed between them, as well as different latent space dimensions, revealing insights into how specific network architectures can influence overall performance.
+This report presents my investigation into Variational Autoencoders (VAEs), a powerful class of generative models. I made an in-depth exploration of the mathematical formulations underpinning VAE and achieved a comprehensive understanding of latent models. I implemented VAE from scratch and tested them on MNIST and FashionMNIST dataset. I also implemented two network structures (MLP-based and CNN-based encoder-decoder architectures), and a comparative analysis was performed between them, as well as different latent space dimensions, revealing insights into how specific network architectures can influence overall performance. \\
 More details can be found in Variational_Autoencoders.pdf
 
 ## Download the dataset
@@ -14,3 +14,4 @@ To run the model, go to the working directory, and just type "python VAE/train.p
 
 ## Result
 You can visualize the training result by looking at /result folder, including the training curve, the visualized latent space, and the generation result.
+
