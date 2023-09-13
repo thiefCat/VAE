@@ -10,8 +10,6 @@ put the data to "data/MNIST" or "data/Fashion_MNIST". The file structure is illu
 <img src="file_structure.png" width="200" height="200">
 
 ## How to run
-To run the model, go to the working directory, and just type "python VAE/train.py" in the terminal, the model will be trained by default parameters. You can look at how to change hyperparameters by running "python VAE/train.py -h" and use command line codes to change them. e.g., the dataset used for training, the latent dimension, the architecture for the model .etc.
-
 Here is the code to run by default:
 
   ```bash
@@ -19,6 +17,7 @@ Here is the code to run by default:
   cd VAE
   python train.py 
   ```
+You can look at how to change hyperparameters by running "python train.py -h" and use command line codes to change them. e.g., the dataset used for training, the latent dimension, the architecture for the model .etc.
 
 ## Result
 You can visualize the training result by looking at /result folder, including the training curve, the visualized latent space, and the generation result.  
